@@ -1,22 +1,20 @@
-/* Font dasar dan reset */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
+    background-image: url(rsud.jpg);
+    background-size: cover;
 }
-
-/* Header */
 .main-header {
-    background-color: #007bff;
+    background-color: #139522;
     color: white;
     text-align: center;
-    padding: 9px 0;
-    font-size: 15px;
+    padding: 20px 0;
+    font-size: 24px;
 }
-
-/* Navbar */
 .navbar {
-    background-color: #004080;
+    background-color: #60cc2e;
 }
 .navbar ul {
     display: flex;
@@ -24,32 +22,29 @@ body {
     padding: 10px 0;
     margin: 0;
     list-style: none;
-    background-color: #004080;
 }
 .navbar li {
     margin: 0 15px;
+    padding: 0 25px;
 }
 .navbar a {
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
-
-/* Hero Section */
 .hero {
-    background-color: #e6e6e6;
+    font-size: larger;
     text-align: center;
     padding: 40px 20px;
 }
 .hero h2 {
     display: inline-block;
     background-color: #555;
-    color: white;
+    color: #e6e6e6;
     padding: 10px 20px;
     border-radius: 5px;
 }
 
-/* Main content */
 .content {
     display: flex;
     justify-content: center;
@@ -57,18 +52,26 @@ body {
     padding: 40px 20px;
     flex-wrap: wrap;
 }
-.box {
+.box1{
     background-color: white;
     padding: 20px;
     width: 600px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+
+}
+.box2 {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
 }
 .box h3 {
     margin-top: 0;
 }
-
-/* Footer */
 .footer {
     background-color: #333;
     color: white;
@@ -76,3 +79,31 @@ body {
     padding: 15px 0;
     font-size: 14px;
 }
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.logo-container:hover{
+    transform: scale(1.15);
+    transition: 0.3s ease;
+    border-image: 2%;
+}
+
+.box1:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.box2:hover {
+    background-color: rgb(191, 184, 184);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.navbar li:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
